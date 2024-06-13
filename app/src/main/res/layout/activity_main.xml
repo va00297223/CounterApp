@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="0"
-        android:textSize="48sp" />
+        android:textSize="40dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,13 +26,15 @@
             android:id="@+id/incrementButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Increment" />
+            android:text="Increment"
+            android:textSize="25dp"/>
 
         <Button
             android:id="@+id/decrementButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Decrement"
+            android:textSize="25dp"
             android:layout_marginStart="20dp"/>
     </LinearLayout>
 </LinearLayout>
